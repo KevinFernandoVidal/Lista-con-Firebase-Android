@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista Bd</string>
+    <string name="titulo">Agregar Contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="ingrese_el_apellido">Ingrese el apellido</string>
+    <string name="numero">Número</string>
+    <string name="agregar_contacto">Agregar Contacto</string>
+    <string name="apellido">Apellido</string>
+    <string name="name">Contactos</string>
+</resources>

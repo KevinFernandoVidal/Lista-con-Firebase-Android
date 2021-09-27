@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ListContactActivity">
+
+    <ListView
+        android:id="@+id/AlcListContact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+         </ListView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/AlcFabtnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_plus"
+            tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista Contacto"
+        android:fontFamily="@font/lora_bold"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center|top"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
